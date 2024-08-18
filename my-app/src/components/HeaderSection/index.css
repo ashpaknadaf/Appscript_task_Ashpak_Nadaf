@@ -1,0 +1,62 @@
+.header-container{
+    width: 98%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 34px;
+    width: 34px;
+}
+.logo-heading{
+    font-size: 29px;
+    font-family: "inter";
+    font-weight: 800;
+    margin-left: 150px;
+}
+.icons{
+    height: 24px;
+    width: 24px;
+    margin-right: 20px;
+}
+.language-select-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.language-name{
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 2px;
+}
+
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.route-item{
+    font-family: "Simplon Norm";
+    font-size: 16px;
+    font-weight: 800;
+    color: #252020;
+    padding-right: 50px;
+}
+
+.header-routers-section{
+    display: flex;
+    align-self: center;
+}

@@ -1,0 +1,46 @@
+.fiter-container{
+    width: 90%;
+}
+
+.customizable-heading-container{
+    display: flex;
+}
+
+.filter-items-heading{
+    font-family: "Simplon Norm";
+    font-size: 14px;
+    color: #252020;
+    font-weight: 700;
+    margin-left: 5px;
+    
+}
+
+.horizontal-line{
+    border: 1px solid #E5E5E5;
+}
+
+.filter-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all{
+    font-family: "Simplon Norm";
+    font-size: 16px;
+    color: #252020;
+    margin-top: 0px;
+}
+
+.unselect{
+    font-family: "Simplon Norm";
+    color: #BFC8CD;
+    text-decoration: underline;
+}
+
+.filter-by{
+    font-family: "Simplon Norm";
+    font-size: 14px;
+    color: #252020;
+}

@@ -1,0 +1,74 @@
+.liked{
+    color: red;
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+    
+}
+.dislike {
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+    
+}
+
+.product-item-container{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.product-image {
+    height: 180px;
+    align-self: center;
+    margin-top: 10px;
+
+}
+
+.product-content-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-name{
+    font-family: "Simplon Norm";
+    font-size: 18px;
+    color: #252020;
+}
+
+.product-description{
+    font-family: "Simplon Norm";
+    font-size: 12px;
+    text-overflow: ellipsis;
+    color: darkgrey;
+    width: 260px; 
+    
+    
+}
+
+.product-price{
+    font-size: 18px;
+    font-family: "Simplon Norm";
+    margin-bottom: 10px;
+}
+
+.price-container{
+    display: flex;
+    align-items: center;
+}
+
+.dollar-icon{
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.price-like-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
